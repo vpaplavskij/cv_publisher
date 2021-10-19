@@ -1,0 +1,13 @@
+{
+  "name": "cv-publisher/cv-publisher",
+  "description": "Create your dream cv",
+  "autoload": {
+    "psr-4": {
+      "cv\\":"src/"
+    }
+  },
+  "require": {
+    "nikic/fast-route": "^1.3",
+    "ext-pdo": "*"
+  }
+}
